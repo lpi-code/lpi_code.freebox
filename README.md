@@ -1,2 +1,3 @@
-# lpi_code.freebox
-Freebox ansible collection 
+# Ansible Collection - lpi_code.freebox
+
+Documentation for the collection.
