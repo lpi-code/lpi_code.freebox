@@ -1,0 +1,10 @@
+- name: Set a random dhcp lease
+  lpi_code.freebox.nat:
+    lan_ip: "192.168.0.116"
+    lan_port: 12345
+    wan_port_start: 12345
+    wan_port_end: 12345
+    ip_proto: "udp"
+    src_ip: "0.0.0.0"
+    enabled: true
+    comment: "Test UDP rule"
