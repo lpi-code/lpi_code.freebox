@@ -1,0 +1,4 @@
+- name: Set a random dhcp lease
+  lpi_code.freebox.dhcp:
+    ip: "192.168.0.116"
+    mac: "ac:fd:ce:22:0e:84"
